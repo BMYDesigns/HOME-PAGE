@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* display: flex; */
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    justify-items: center;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    justify-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 50px 30px;
+}
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 10px;
+    font-family: sans-serif;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logo{
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 35px;
+}
+span{
+color: rgb(0, 123, 255);
+}
+.sign, .demo{
+    text-decoration: none;
+    color:#00ffea;
+    transition: transform 0.4s;
+
+
+}
+ .demo:hover{
+    transform: scale(1.1);
+}
+.sign:hover{
+    /* border: white; */
+    transform: scale(1.1);
+}
+.sign{
+    border: 3px solid rgb(0, 123, 255);
+    border-radius: 5px;
+    padding: 10px 20px
+
+}
+.demo{
+    background:  rgb(0, 123, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.future{
+    display: grid;
+}
+.gif{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 20px 30px;
+    width: 50%;
+    position: relative
+}
+
+.location{
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    opacity: 30%;
+}
+.future{
+    display: grid;
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 210px;
+    padding: 20px 30px;
+    
+}
+.future h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding: 10px 30px;
+
+}
+.future h2{
+    /* width: 310px; */
+    font-size: 30px;
+    padding: 5px 10px
+}
+.future p{
+    width: 400px;
+    font-size: 20px;
+    padding: 10px 20px
+}
+
+img {
+    display: flex;
+    position: absolute;
+    left: 1000px;
+    width: 30%;
+    top: 400px;
+}
+.gif a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    top: 410px;
+    position: relative;
+    left: 220px
+
+}
+.see {
+    background: linear-gradient(to right, #0649c7, #1585c2);
+    border-radius: 10px;
+}
+.exp{
+    border: 3px solid rgb(12, 79, 235);
+}
